@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal |e-commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Pacifico&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <span>Minimal</span>
+            </a>
+
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="/" class="nav-link active">Home</a></li>
+                    <li class="nav-item-badeg">
+                        <a href="#products" class="nav-link">Products</a>
+                        <span class="badeg">New</span>
+                    </li>
+                    <li><a href="#collections" class="nav-link">Collections</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="nav-search">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" class="search-input" placeholder="Search products...">
+                </div>
+            </div>
+
+            <div class="nav-actions">
+                <button class="action-btn cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>
+                </button>
+
+                <button class="action-btn profile-btn">
+                    <i class="fa-solid fa-user"></i>
+                </button>
+
+                <button class="mobile-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container hero-container">
+
+            <div class="hero-left">
+                <h1 class="hero-heading">
+                    e-commerce
+                    <span>Website</span>
+                </h1>
+                <p class="hero-subtitle">SUPPORT LOCAL EVERYTHING</p>
+
+                <div class="quantity-selector">
+                    <button class="quantity-btn minus-btn">
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                    <div class="quantity-value">2</div>
+                    <button class="quantity-btn plus-btn">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+
+                <button class="btn buy-now-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Buy Now
+                </button>
+            </div>
+
+            <div class="hero-right">
+                <div class="product-display">
+                    <div class="circle-background"></div>
+                    <img src="images/chair.png" alt="Modern Wooden Chair" class="chair-image">
+
+                    <div class="floating-label minimalistic-label">
+                        <span class="label-text">Minimalistic</span>
+                    </div>
+                    <div class="floating-label cozy-label">
+                        <span class="label-text">¡Super cozy!</span>
+                    </div>
+                </div>
+
+                <div class="category-images">
+                    <div class="category-image-container">
+                        <img src="images/chairA.png" alt="sofa" class="category-image">
+                    </div>
+                    <div class="category-image-container">
+                        <img src="images/chairB.png" alt="coffee table" class="category-image">
+                    </div>
+                    <div class="category-image-container">
+                        <img src="images/chairC.png" alt="Lounge Chair" class="category-image">
+                    </div>
+                </div>
+
+                <a href="#" class="continue-shopping">
+                    <span>Continue Shopping</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Minimal</h2>
+            <p class="section-subtitle">Experience premium quality furniture designed for modern living</p>
+
+            <div class="features-grid">
+                <div class="features-card">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3>Free Shipping</h3>
+                    <p>Free delivery on all orders over $100</p>
+                </div>
+
+                <div class="features-card">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>Crafted from sustainable materials</p>
+                </div>
+
+                <div class="features-card">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Customer service always ready to help</p>
+                </div>
+
+                <div class="features-card">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-undo"></i>
+                    </div>
+                    <h3>30-Day Return</h3>
+                    <p>Return within 30 days for full refund</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <p class="section-subtitle">Discover our curated collection of premium furniture</p>
+
+            <div class="products-grid">
+                <div class="products-card">
+                    <img src="images/Chairs.avif" alt="Modern Lounge Chair">
+                    <div class="product-info">
+                        <span class="product-category">Chairs</span>
+                        <h3>Elegant Lounge Chair</h3>
+                        <p class="product-price">$349</p>
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="products-card">
+                    <img src="images/Tables.avif" alt="Modern Lounge Chair">
+                    <div class="product-info">
+                        <span class="product-category">Tables</span>
+                        <h3>Oak Coffee Table</h3>
+                        <p class="product-price">$499</p>
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="products-card">
+                    <img src="images/Sofas.avif" alt="Modern Lounge Chair">
+                    <div class="product-info">
+                        <span class="product-category">Sofas</span>
+                        <h3>Minimalist Sofa</h3>
+                        <p class="product-price">$1,299</p>
+                        <button class="btn add-to-cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-all">
+                <button class="btn btn-secondary">View All Products</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <p class="section-subtitle">Explore our carefully curated furniture collections</p>
+
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="images/room.avif" alt="living Room Furniture">
+                    <div class="category-content">
+                        <h3>Living Room</h3>
+                        <p>Comfortable sofas, elegant chairs, and stylish coffee tables</p>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="images/DiningRoom.jpeg" alt="Dining Room Furniture">
+                    <div class="category-content">
+                        <h3>Dining Room</h3>
+                        <p>Beautiful tables and chairs for memorable meals</p>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="images/Bedroom (1).jpeg" alt="Bedroom Furniture">
+                    <div class="category-content">
+                        <h3>Bedroom</h3>
+                        <p>Peaceful spaces with premium beds and nightstands</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <p class="section-subtitle">Explore our carefully curated furniture collections</p>
+
+            <form class="newsletter-form">
+                <input type="email"class="newsletter-input" placeholder="Enter your email address">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <span>Minimal</span>
+                    </a>
+                    <p>Premium furniture for modern living. Crafted with care, designed for life.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Shop</h3>
+                    <a href="#">All Products</a>
+                    <a href="#">New Arrivals</a>
+                    <a href="#">Living Room</a>
+                    <a href="#">Dining Room</a>
+                    <a href="#">Bedroom</a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Company</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                    <a href="#">Sustainability</a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Support</h3>
+                    <a href="#">FAQ</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Warranty</a>
+                    <a href="#">Contact Support</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Minimal Furniture. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
